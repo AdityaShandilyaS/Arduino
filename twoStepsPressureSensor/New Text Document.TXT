@@ -1,0 +1,325 @@
+15:22:41.943 -> inMat avg: 514
+15:22:41.977 -> threshold_inMat: 534
+15:22:42.965 -> outMat avg: 507
+15:22:42.999 -> threshold_outMat: 527
+15:22:56.478 -> at step 2    threshold: 548
+15:23:00.963 -> at step 1    threshold: 555
+15:23:00.999 -> transition from 2 to 1
+15:23:00.999 -> outFlag: 1
+15:23:01.035 -> half_out_thresh: 518
+15:23:01.035 -> half_in_thresh: 525
+15:23:01.069 -> outValue: 517
+15:23:01.069 -> transition from 2 to 1
+15:23:01.105 -> outFlag: 1
+15:23:01.140 -> half_out_thresh: 518
+15:23:01.140 -> half_in_thresh: 525
+15:23:01.177 -> outValue: 517
+15:23:01.177 -> transition from 2 to 1
+15:23:01.213 -> outFlag: 1
+15:23:01.213 -> half_out_thresh: 518
+15:23:01.248 -> half_in_thresh: 525
+15:23:01.284 -> outValue: 508
+15:23:01.284 -> transition from 2 to 1
+15:23:01.320 -> outFlag: 1
+15:23:01.320 -> half_out_thresh: 518
+15:23:01.357 -> half_in_thresh: 525
+15:23:01.357 -> outValue: 508
+15:23:01.393 -> transition from 2 to 1
+15:23:01.393 -> outFlag: 1
+15:23:01.429 -> half_out_thresh: 518
+15:23:01.429 -> half_in_thresh: 525
+15:23:01.465 -> outValue: 506
+15:23:01.465 -> transition from 2 to 1
+15:23:01.503 -> outFlag: 1
+15:23:01.503 -> half_out_thresh: 518
+15:23:01.537 -> half_in_thresh: 525
+15:23:01.572 -> outValue: 506
+15:23:01.572 ->                                       from step 2
+15:23:05.850 ->                                       from step 1 after 2, counting out
+15:23:05.958 ->                                           count: -1
+15:23:12.518 -> at step 1    threshold: 555
+15:23:15.151 -> at step 2    threshold: 547
+15:23:16.220 -> at step 2    threshold: 568
+15:23:19.040 -> transition from 2 to 1
+15:23:19.040 -> outFlag: 2
+15:23:19.076 -> half_out_thresh: 538
+15:23:19.076 -> half_in_thresh: 524
+15:23:19.112 -> outValue: 537
+15:23:19.112 -> transition from 2 to 1
+15:23:19.148 -> outFlag: 2
+15:23:19.148 -> half_out_thresh: 538
+15:23:19.184 -> half_in_thresh: 524
+15:23:19.219 -> outValue: 537
+15:23:19.219 -> at step 1    threshold: 559
+15:23:19.255 -> transition from 2 to 1
+15:23:19.291 -> outFlag: 2
+15:23:19.291 -> half_out_thresh: 538
+15:23:19.291 -> half_in_thresh: 529
+15:23:19.327 -> outValue: 510
+15:23:19.363 -> transition from 2 to 1
+15:23:19.363 -> outFlag: 2
+15:23:19.399 -> half_out_thresh: 538
+15:23:19.399 -> half_in_thresh: 529
+15:23:19.436 -> outValue: 510
+15:23:19.436 ->                                       from step 2
+15:23:22.422 -> at step 2    threshold: 551
+15:23:22.458 -> transition from 2 to 1
+15:23:22.494 -> outFlag: 2
+15:23:22.494 -> half_out_thresh: 521
+15:23:22.531 -> half_in_thresh: 529
+15:23:22.531 -> outValue: 520
+15:23:22.567 -> transition from 2 to 1
+15:23:22.603 -> outFlag: 2
+15:23:22.603 -> half_out_thresh: 521
+15:23:22.636 -> half_in_thresh: 529
+15:23:22.636 -> outValue: 520
+15:23:22.673 -> transition from 1 to 2
+15:23:22.673 -> inFlag: 1
+15:23:22.707 -> half_in_thresh: 529
+15:23:22.707 -> half_out_thresh: 541
+15:23:22.740 -> inValue: 515
+15:23:26.727 -> at step 2    threshold: 572
+15:23:29.839 -> transition from 2 to 1
+15:23:29.839 -> outFlag: 2
+15:23:29.875 -> half_out_thresh: 521
+15:23:29.875 -> half_in_thresh: 525
+15:23:29.911 -> outValue: 517
+15:23:29.911 -> transition from 2 to 1
+15:23:29.947 -> outFlag: 2
+15:23:29.947 -> half_out_thresh: 521
+15:23:29.983 -> half_in_thresh: 525
+15:23:30.019 -> outValue: 517
+15:23:30.019 -> at step 1    threshold: 562
+15:23:30.055 -> transition from 2 to 1
+15:23:30.091 -> outFlag: 2
+15:23:30.091 -> half_out_thresh: 521
+15:23:30.125 -> half_in_thresh: 532
+15:23:30.125 -> outValue: 509
+15:23:30.161 -> transition from 2 to 1
+15:23:30.161 -> outFlag: 2
+15:23:30.197 -> half_out_thresh: 521
+15:23:30.197 -> half_in_thresh: 532
+15:23:30.233 -> outValue: 509
+15:23:35.311 ->                                       from step 1 after 2, counting out
+15:23:35.383 ->                                           count: -2
+15:23:50.001 -> timeout, resetting values
+15:23:51.006 -> inMat avg: 513
+15:23:51.006 -> threshold_inMat: 533
+15:23:52.003 -> outMat avg: 506
+15:23:52.039 -> threshold_outMat: 526
+15:23:52.746 -> at step 1    threshold: 554
+15:23:55.682 -> at step 2    threshold: 547
+15:23:56.352 -> at step 2    threshold: 568
+15:23:58.498 -> transition from 2 to 1
+15:23:58.498 -> outFlag: 2
+15:23:58.534 -> half_out_thresh: 538
+15:23:58.534 -> half_in_thresh: 523
+15:23:58.570 -> outValue: 532
+15:23:58.606 -> transition from 2 to 1
+15:23:58.606 -> outFlag: 2
+15:23:58.642 -> half_out_thresh: 538
+15:23:58.642 -> half_in_thresh: 523
+15:23:58.678 -> outValue: 532
+15:23:58.678 -> at step 1    threshold: 560
+15:23:58.714 -> transition from 2 to 1
+15:23:58.750 -> outFlag: 2
+15:23:58.750 -> half_out_thresh: 538
+15:23:58.783 -> half_in_thresh: 530
+15:23:58.783 -> outValue: 521
+15:23:58.820 -> transition from 2 to 1
+15:23:58.856 -> outFlag: 2
+15:23:58.856 -> half_out_thresh: 538
+15:23:58.890 -> half_in_thresh: 530
+15:23:58.890 -> outValue: 521
+15:23:58.926 ->                                       from step 2
+15:23:58.959 -> transition from 2 to 1
+15:23:58.996 -> outFlag: 1
+15:23:58.996 -> half_out_thresh: 511
+15:23:59.031 -> half_in_thresh: 530
+15:23:59.031 -> outValue: 507
+15:23:59.064 -> transition from 2 to 1
+15:23:59.100 -> outFlag: 1
+15:23:59.100 -> half_out_thresh: 511
+15:23:59.136 -> half_in_thresh: 530
+15:23:59.136 -> outValue: 507
+15:23:59.172 -> transition from 2 to 1
+15:23:59.172 -> outFlag: 1
+15:23:59.208 -> half_out_thresh: 511
+15:23:59.208 -> half_in_thresh: 530
+15:23:59.243 -> outValue: 506
+15:23:59.243 -> transition from 2 to 1
+15:23:59.277 -> outFlag: 1
+15:23:59.314 -> half_out_thresh: 511
+15:23:59.314 -> half_in_thresh: 530
+15:23:59.350 -> outValue: 506
+15:23:59.350 -> transition from 2 to 1
+15:23:59.386 -> outFlag: 1
+15:23:59.386 -> half_out_thresh: 511
+15:23:59.420 -> half_in_thresh: 530
+15:23:59.420 -> outValue: 506
+15:23:59.454 -> transition from 2 to 1
+15:23:59.491 -> outFlag: 1
+15:23:59.491 -> half_out_thresh: 511
+15:23:59.526 -> half_in_thresh: 530
+15:23:59.526 -> outValue: 506
+15:23:59.561 -> transition from 2 to 1
+15:23:59.561 -> outFlag: 1
+15:23:59.594 -> half_out_thresh: 511
+15:23:59.594 -> half_in_thresh: 530
+15:23:59.630 -> outValue: 506
+15:23:59.665 -> transition from 2 to 1
+15:23:59.665 -> outFlag: 1
+15:23:59.701 -> half_out_thresh: 511
+15:23:59.701 -> half_in_thresh: 530
+15:23:59.734 -> outValue: 506
+15:23:59.734 -> transition from 2 to 1
+15:23:59.768 -> outFlag: 1
+15:23:59.768 -> half_out_thresh: 511
+15:23:59.803 -> half_in_thresh: 530
+15:23:59.839 -> outValue: 506
+15:23:59.839 -> transition from 2 to 1
+15:23:59.875 -> outFlag: 1
+15:23:59.875 -> half_out_thresh: 511
+15:23:59.910 -> half_in_thresh: 530
+15:23:59.910 -> outValue: 506
+15:23:59.943 -> transition from 2 to 1
+15:23:59.976 -> outFlag: 1
+15:23:59.976 -> half_out_thresh: 511
+15:24:00.012 -> half_in_thresh: 530
+15:24:00.012 -> outValue: 506
+15:24:00.048 -> transition from 2 to 1
+15:24:00.084 -> outFlag: 1
+15:24:00.084 -> half_out_thresh: 511
+15:24:00.084 -> half_in_thresh: 530
+15:24:00.121 -> outValue: 506
+15:24:00.121 -> transition from 2 to 1
+15:24:00.157 -> outFlag: 1
+15:24:00.157 -> half_out_thresh: 511
+15:24:00.191 -> half_in_thresh: 530
+15:24:00.227 -> outValue: 506
+15:24:00.227 -> transition from 2 to 1
+15:24:00.261 -> outFlag: 1
+15:24:00.261 -> half_out_thresh: 511
+15:24:00.297 -> half_in_thresh: 530
+15:24:00.333 -> outValue: 506
+15:24:00.333 -> transition from 2 to 1
+15:24:00.369 -> outFlag: 1
+15:24:00.369 -> half_out_thresh: 511
+15:24:00.405 -> half_in_thresh: 530
+15:24:00.405 -> outValue: 507
+15:24:00.439 -> transition from 2 to 1
+15:24:00.439 -> outFlag: 1
+15:24:00.475 -> half_out_thresh: 511
+15:24:00.475 -> half_in_thresh: 530
+15:24:00.510 -> outValue: 507
+15:24:00.545 -> transition from 2 to 1
+15:24:00.545 -> outFlag: 1
+15:24:00.581 -> half_out_thresh: 511
+15:24:00.581 -> half_in_thresh: 530
+15:24:00.614 -> outValue: 506
+15:24:00.614 -> transition from 2 to 1
+15:24:00.651 -> outFlag: 1
+15:24:00.651 -> half_out_thresh: 511
+15:24:00.687 -> half_in_thresh: 530
+15:24:00.723 -> outValue: 506
+15:24:00.723 -> transition from 2 to 1
+15:24:00.759 -> outFlag: 1
+15:24:00.759 -> half_out_thresh: 511
+15:24:00.793 -> half_in_thresh: 530
+15:24:00.793 -> outValue: 506
+15:24:00.827 -> transition from 2 to 1
+15:24:00.860 -> outFlag: 1
+15:24:00.860 -> half_out_thresh: 511
+15:24:00.896 -> half_in_thresh: 530
+15:24:00.896 -> outValue: 506
+15:24:00.930 -> transition from 2 to 1
+15:24:00.930 -> outFlag: 1
+15:24:00.965 -> half_out_thresh: 511
+15:24:00.965 -> half_in_thresh: 530
+15:24:01.001 -> outValue: 506
+15:24:01.001 -> transition from 2 to 1
+15:24:01.037 -> outFlag: 1
+15:24:01.037 -> half_out_thresh: 511
+15:24:01.072 -> half_in_thresh: 530
+15:24:01.108 -> outValue: 506
+15:24:01.108 -> transition from 2 to 1
+15:24:01.143 -> outFlag: 1
+15:24:01.143 -> half_out_thresh: 511
+15:24:01.179 -> half_in_thresh: 530
+15:24:01.212 -> outValue: 506
+15:24:01.212 -> transition from 2 to 1
+15:24:01.249 -> outFlag: 1
+15:24:01.249 -> half_out_thresh: 511
+15:24:01.285 -> half_in_thresh: 530
+15:24:01.285 -> outValue: 506
+15:24:01.320 -> transition from 2 to 1
+15:24:01.320 -> outFlag: 1
+15:24:01.356 -> half_out_thresh: 511
+15:24:01.356 -> half_in_thresh: 530
+15:24:01.392 -> outValue: 506
+15:24:01.427 -> transition from 2 to 1
+15:24:01.427 -> outFlag: 1
+15:24:01.460 -> half_out_thresh: 511
+15:24:01.460 -> half_in_thresh: 530
+15:24:01.493 -> outValue: 506
+15:24:01.493 -> transition from 2 to 1
+15:24:01.530 -> outFlag: 1
+15:24:01.530 -> half_out_thresh: 511
+15:24:01.566 -> half_in_thresh: 530
+15:24:01.603 -> outValue: 506
+15:24:01.603 -> transition from 2 to 1
+15:24:01.639 -> outFlag: 1
+15:24:01.639 -> half_out_thresh: 511
+15:24:01.675 -> half_in_thresh: 530
+15:24:01.675 -> outValue: 506
+15:24:01.710 -> transition from 2 to 1
+15:24:01.710 -> outFlag: 1
+15:24:01.744 -> half_out_thresh: 511
+15:24:01.780 -> half_in_thresh: 530
+15:24:01.780 -> outValue: 506
+15:24:01.816 -> transition from 2 to 1
+15:24:01.816 -> outFlag: 1
+15:24:01.852 -> half_out_thresh: 511
+15:24:01.852 -> half_in_thresh: 530
+15:24:01.889 -> outValue: 506
+15:24:01.889 -> transition from 2 to 1
+15:24:01.924 -> outFlag: 1
+15:24:01.924 -> half_out_thresh: 511
+15:24:01.960 -> half_in_thresh: 530
+15:24:01.994 -> outValue: 506
+15:24:01.994 -> transition from 2 to 1
+15:24:02.028 -> outFlag: 1
+15:24:02.028 -> half_out_thresh: 511
+15:24:02.064 -> half_in_thresh: 530
+15:24:02.064 -> outValue: 506
+15:24:02.099 -> transition from 2 to 1
+15:24:02.135 -> outFlag: 1
+15:24:02.135 -> half_out_thresh: 511
+15:24:02.135 -> half_in_thresh: 530
+15:24:02.171 -> outValue: 506
+15:24:02.207 -> transition from 2 to 1
+15:24:02.207 -> outFlag: 1
+15:24:02.242 -> half_out_thresh: 511
+15:24:02.242 -> half_in_thresh: 530
+15:24:02.278 -> outValue: 506
+15:24:02.278 -> transition from 1 to 2
+15:24:02.314 -> inFlag: 1
+15:24:02.314 -> half_in_thresh: 530
+15:24:02.350 -> half_out_thresh: 531
+15:24:02.386 -> inValue: 529
+15:24:02.386 -> transition from 1 to 2
+15:24:02.422 -> inFlag: 1
+15:24:02.422 -> half_in_thresh: 530
+15:24:02.458 -> half_out_thresh: 531
+15:24:02.458 -> inValue: 529
+15:24:02.494 -> transition from 1 to 2
+15:24:02.494 -> inFlag: 1
+15:24:02.531 -> half_in_thresh: 530
+15:24:02.531 -> half_out_thresh: 531
+15:24:02.564 -> inValue: 515
+15:24:02.564 -> at step 2    threshold: 563
+15:24:22.547 -> timeout, resetting values
+15:24:23.554 -> inMat avg: 513
+15:24:23.590 -> threshold_inMat: 533
+15:24:24.559 -> outMat avg: 506
+15:24:24.595 -> threshold_outMat: 526

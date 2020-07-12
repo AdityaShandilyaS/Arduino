@@ -1,0 +1,122 @@
+#define mat1 A0
+#define mat2 A2
+#define mat3 A4
+
+int person = 6;
+int threshold1, threshold2, threshold3;
+int tempthres1, tempthres2, tempthres3;
+int step1, step2 , step3;
+int flag1 = 0, flag2 = 0, flag3 = 0;
+int inStep = 0, midStep = 0, outStep = 0;
+int count = 0;
+int total = 0;
+long starttime, stoptime;
+
+void setup() {
+  // put your setup code here, to run once:
+  threshold1 = analogRead(mat1) + person;
+  threshold2 = analogRead(mat2) + person;
+  threshold3 = analogRead(mat3) + person;
+  starttime = millis();
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  step1 = analogRead(mat1);
+  step2 = analogRead(mat2);
+  step3 = analogRead(mat3);
+  if(step1 > threshold1){
+    delay(250);
+    Serial.print("at step1: ");
+    Serial.print(step1);
+    Serial.print("  threshold1: ");
+    Serial.println(threshold1); 
+    flag1 += 1;
+    threshold1 = step1 + person;
+    starttime = millis();
+  }
+  tempthres1 = threshold1 - person - person;
+  if(step1 < tempthres1 && flag1 > 0){
+    inStep += 1;
+    threshold1 = step1 + person;
+    flag1 -= 1;
+    count_people(true);
+  }
+  if(step2 > threshold2){
+    delay(250);
+    Serial.print("at step2: ");
+    Serial.print(step2);
+    Serial.print("  threshold2: ");
+    Serial.println(threshold2);
+    flag2 += 1;
+    threshold2 = step2 + person;
+    starttime = millis();
+  }
+  tempthres2 = threshold2 - person - person;
+  if(step2 < tempthres2 && flag2 > 0){
+    midStep += 2;
+    threshold2 = step2 + person;
+    flag2 -= 1;
+  }
+  if(step3 > threshold3){
+    delay(250);
+    Serial.print("at step3: ");
+    Serial.print(step3);
+    Serial.print("  threshold3: ");
+    Serial.println(threshold3);
+    flag3 += 1;
+    threshold3 = step3 + person;
+    starttime = millis();
+  }
+  tempthres3 = threshold3 - person - person;
+  if(step3 < tempthres3 && flag3 > 0){
+    outStep += 3;
+    threshold3 = step3 + person;
+    flag3 -= 1;
+    count_people(false);
+  }
+  stoptime = millis();
+  timeout_refresh();
+}
+
+void count_people(bool trueforoutcount){
+  int precount = 0;
+  total = midStep + inStep + outStep;
+  precount = total/6;
+  Serial.print("precount: ");
+  Serial.println(precount);
+  if(precount > 0){
+    if(trueforoutcount){ 
+      count += -precount;
+    }
+    else{
+      count += precount;
+    }
+    total = 0;
+    inStep -= precount;
+    midStep -= precount * 2;
+    outStep -= precount * 3;
+    threshold1 = step1 + person;
+    threshold2 = step2 + person;
+    threshold3 = step3 + person;
+    Serial.print("count: ");
+    Serial.println(count);
+  }
+}
+
+void timeout_refresh(){
+  if((stoptime - starttime) > 15000){
+    Serial.println("timeout, refreshing values");
+    inStep = 0;
+    midStep = 0;
+    outStep = 0;
+    flag1 = 0;
+    flag2 = 0;
+    flag3 = 0;
+    starttime = millis();
+    threshold1 = step1 + person;
+    threshold2 = step2 + person;
+    threshold3 = step3 + person;
+  }
+}

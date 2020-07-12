@@ -1,0 +1,102 @@
+inhold_inMat: 535
+outMat avg: 508
+threshold_outMat: 528
+inMat avg: 515
+threshold_inMat: 535
+outMat avg: 507
+threshold_outMat: 527
+at step 1    threshold: 556
+at step 2    threshold: 548
+transition from 1 to 2
+inFlag: 1
+half_in_thresh: 526
+half_out_thresh: 538
+inValue: 524
+transition from 1 to 2
+inFlag: 1
+half_in_thresh: 526
+half_out_thresh: 538
+inValue: 524
+transition from 1 to 2
+inFlag: 1
+half_in_thresh: 526
+half_out_thresh: 538
+inValue: 516
+transition from 1 to 2
+inFlag: 1
+half_in_thresh: 526
+half_out_thresh: 538
+inValue: 516
+transition from 1 to 2
+inFlag: 1
+half_in_thresh: 526
+half_out_thresh: 538
+inValue: 515
+                                      from step 1
+at step 2    threshold: 569
+transition from 2 to 1
+outFlag: 2
+half_out_thresh: 539
+half_in_thresh: 525
+outValue: 533
+transition from 2 to 1
+outFlag: 2
+half_out_thresh: 539
+half_in_thresh: 525
+outValue: 533
+at step 1    threshold: 561
+transition from 2 to 1
+outFlag: 2
+half_out_thresh: 539
+half_in_thresh: 531
+outValue: 510
+transition from 2 to 1
+outFlag: 2
+half_out_thresh: 539
+half_in_thresh: 531
+outValue: 510
+at step 2    threshold: 551
+at step 2    threshold: 572
+at step 2    threshold: 551
+transition from 2 to 1
+outFlag: 2
+half_out_thresh: 521
+half_in_thresh: 530
+outValue: 520
+transition from 2 to 1
+outFlag: 2
+half_out_thresh: 521
+half_in_thresh: 530
+outValue: 520
+transition from 2 to 1
+outFlag: 2
+half_out_thresh: 521
+half_in_thresh: 530
+outValue: 507
+transition from 2 to 1
+outFlag: 2
+half_out_thresh: 521
+half_in_thresh: 530
+outValue: 507
+at step 1    threshold: 561
+timeout, resetting values
+inMat avg: 515
+threshold_inMat: 535
+outMat avg: 507
+threshold_outMat: 527
+timeout, resetting values
+inMat avg: 515
+threshold_inMat: 535
+outMat avg: 507
+threshold_outMat: 527
+timeout, resetting values
+inMat avg: 515
+threshold_inMat: 535
+outMat avg: 507
+threshold_outMat: 527
+timeout, resetting values
+inMat avg: 515
+threshold_inMat: 535
+outMat avg: 507
+threshold_outMat: 527
+

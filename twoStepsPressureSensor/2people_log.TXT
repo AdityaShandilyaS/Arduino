@@ -1,0 +1,66 @@
+16:43:08.058 -> inMat avg: 514
+16:43:08.093 -> threshold_inMat: 534
+16:43:09.083 -> outMat avg: 507
+16:43:09.083 -> threshold_outMat: 527
+16:43:12.276 -> at step 1    threshold: 555
+16:43:17.193 -> at step 2    threshold: 548
+16:43:19.826 -> at step 1    threshold: 576
+16:43:19.970 -> transition from 2 to 1
+16:43:20.006 -> outFlag: 1
+16:43:20.006 -> half_out_thresh: 518
+16:43:20.040 -> half_in_thresh: 546
+16:43:20.040 -> outValue: 517
+16:43:20.074 -> transition from 2 to 1
+16:43:20.110 -> outFlag: 1
+16:43:20.110 -> half_out_thresh: 518
+16:43:20.146 -> half_in_thresh: 546
+16:43:20.146 -> outValue: 517
+16:43:20.182 -> transition from 2 to 1
+16:43:20.182 -> outFlag: 1
+16:43:20.218 -> half_out_thresh: 518
+16:43:20.218 -> half_in_thresh: 546
+16:43:20.253 -> outValue: 512
+16:43:20.253 -> transition from 2 to 1
+16:43:20.289 -> outFlag: 1
+16:43:20.289 -> half_out_thresh: 518
+16:43:20.325 -> half_in_thresh: 546
+16:43:20.361 -> outValue: 512
+16:43:20.361 -> transition from 2 to 1
+16:43:20.397 -> outFlag: 1
+16:43:20.397 -> half_out_thresh: 518
+16:43:20.433 -> half_in_thresh: 546
+16:43:20.433 -> outValue: 506
+16:43:20.470 -> transition from 2 to 1
+16:43:20.505 -> outFlag: 1
+16:43:20.505 -> half_out_thresh: 518
+16:43:20.542 -> half_in_thresh: 546
+16:43:20.542 -> outValue: 506
+16:43:20.578 ->                                       from step 2
+16:43:30.711 ->                                       from step 1 after 2, counting out
+16:43:30.779 ->                                           count: -1
+16:43:32.067 -> at step 2    threshold: 547
+16:43:32.175 -> transition from 1 to 2
+16:43:32.211 -> inFlag: 1
+16:43:32.211 -> half_in_thresh: 525
+16:43:32.247 -> half_out_thresh: 537
+16:43:32.247 -> inValue: 524
+16:43:32.280 -> transition from 1 to 2
+16:43:32.316 -> inFlag: 1
+16:43:32.316 -> half_in_thresh: 525
+16:43:32.351 -> half_out_thresh: 537
+16:43:32.351 -> inValue: 524
+16:43:32.387 -> transition from 1 to 2
+16:43:32.387 -> inFlag: 1
+16:43:32.423 -> half_in_thresh: 525
+16:43:32.423 -> half_out_thresh: 537
+16:43:32.459 -> inValue: 514
+16:43:32.459 ->                                       from step 1
+16:43:32.782 -> at step 2    threshold: 568
+16:43:32.819 -> at step 2    threshold: 589
+16:43:32.927 ->                                       from step 2 after 1, counting in
+16:43:32.999 ->                                           count: 0
+16:43:52.810 -> timeout, resetting values
+16:43:53.805 -> inMat avg: 513
+16:43:53.841 -> threshold_inMat: 533
+16:43:54.843 -> outMat avg: 506
+16:43:54.843 -> threshold_outMat: 526
